@@ -41,7 +41,7 @@ public class RobotTest
     }
 
     @Test
-    public void CheckDicisionCoverage()
+    public void CheckDecisionCoverage()
     {
         Robot robot1 = new Robot();
         robot1.Robotwalk("녹색", 20);
