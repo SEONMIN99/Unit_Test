@@ -21,7 +21,7 @@ public class Robot
             }
             else        
             {
-                speed = 0;
+                this.speed = 0;
             }
         }
     }
