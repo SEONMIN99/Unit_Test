@@ -51,5 +51,18 @@ public class RobotTest
         robot1.Robotwalk("빨간색", 20);
         assertEquals(0.0, robot1.getSpeed(), 0.0);
     }
+
+
+    @Test
+    public void CheckStatementCoverage()
+    {
+        Robot robot1 = new Robot();
+        robot1.Robotwalk("노란색", 20);
+        assertEquals(24.0, robot1.getSpeed(), 0.0);
+        robot1.Robotwalk("빨간색", 20);
+        assertEquals(0.0, robot1.getSpeed(), 0.0);
+    }
 }
+
+
 
