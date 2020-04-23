@@ -6,10 +6,10 @@ import org.junit.Before;
 import org.junit.Test;
 
 /**
- * The test class RobotTest.
+ * Robot 클래스의 Test를 수행하는 RobotTest 클래스
  *
- * @author  (your name)
- * @version (a version number or a date)
+ * @author (2017315038 이수정, 2018315040 김선민) 
+ * @version (2020년 4월 23일)
  */
 public class RobotTest
 {
@@ -63,6 +63,9 @@ public class RobotTest
         assertEquals(0.0, robot1.getSpeed(), 0.0);
     }
 }
+
+
+
 
 
 
